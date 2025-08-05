@@ -5,7 +5,7 @@ namespace LearningCSharp.Domains.FinanceDomain.Dtos;
 /// <summary>
 /// Data Transfer Object for Bank Account information
 /// </summary>
-public partial class BankAccountDto : ObservableObject
+public partial class BankAccount : ObservableObject
 {
     /// <summary>
     /// Unique identifier for the bank account

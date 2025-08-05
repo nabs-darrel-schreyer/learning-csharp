@@ -5,7 +5,7 @@ namespace LearningCSharp.Domains.LogisticsDomain.Dtos;
 /// <summary>
 /// Data Transfer Object for Shipment information
 /// </summary>
-public partial class ShipmentDto : ObservableObject
+public partial class Shipment : ObservableObject
 {
     /// <summary>
     /// Unique identifier for the shipment

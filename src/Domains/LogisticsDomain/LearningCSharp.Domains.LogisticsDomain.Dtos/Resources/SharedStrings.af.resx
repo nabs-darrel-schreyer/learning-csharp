@@ -59,146 +59,146 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   
-  <!-- ShipmentDto Resources -->
-  <data name="ShipmentDto_Title" xml:space="preserve">
+  <!-- Shipment Resources -->
+  <data name="Shipment_Title" xml:space="preserve">
     <value>Versending</value>
     <comment>Data Transfer Object vir Versending inligting</comment>
   </data>
   
-  <!-- ShipmentDto Property Names -->
-  <data name="ShipmentDto_Id_Name" xml:space="preserve">
+  <!-- Shipment Property Names -->
+  <data name="Shipment_Id_Name" xml:space="preserve">
     <value>Versending ID</value>
     <comment>Unieke identifiseerder vir die versending</comment>
   </data>
-  <data name="ShipmentDto_StreetAddress_Name" xml:space="preserve">
+  <data name="Shipment_StreetAddress_Name" xml:space="preserve">
     <value>Straatadres</value>
     <comment>Straatnommer en naam</comment>
   </data>
-  <data name="ShipmentDto_Suburb_Name" xml:space="preserve">
+  <data name="Shipment_Suburb_Name" xml:space="preserve">
     <value>Voorstad</value>
     <comment>Voorstad of lokaliteit</comment>
   </data>
-  <data name="ShipmentDto_City_Name" xml:space="preserve">
+  <data name="Shipment_City_Name" xml:space="preserve">
     <value>Stad</value>
     <comment>Stad of dorp</comment>
   </data>
-  <data name="ShipmentDto_Region_Name" xml:space="preserve">
+  <data name="Shipment_Region_Name" xml:space="preserve">
     <value>Streek</value>
     <comment>Streek of provinsie</comment>
   </data>
-  <data name="ShipmentDto_PostalCode_Name" xml:space="preserve">
+  <data name="Shipment_PostalCode_Name" xml:space="preserve">
     <value>Poskode</value>
     <comment>Poskode</comment>
   </data>
-  <data name="ShipmentDto_Country_Name" xml:space="preserve">
+  <data name="Shipment_Country_Name" xml:space="preserve">
     <value>Land</value>
     <comment>Land (verstekwaarde is Nieu-Seeland)</comment>
   </data>
   
-  <!-- ShipmentDto Property Descriptions -->
-  <data name="ShipmentDto_Id_Description" xml:space="preserve">
+  <!-- Shipment Property Descriptions -->
+  <data name="Shipment_Id_Description" xml:space="preserve">
     <value>Unieke identifiseerder vir die versending</value>
     <comment>Unieke identifiseerder vir die versending</comment>
   </data>
-  <data name="ShipmentDto_StreetAddress_Description" xml:space="preserve">
+  <data name="Shipment_StreetAddress_Description" xml:space="preserve">
     <value>Straatnommer en naam</value>
     <comment>Straatnommer en naam</comment>
   </data>
-  <data name="ShipmentDto_Suburb_Description" xml:space="preserve">
+  <data name="Shipment_Suburb_Description" xml:space="preserve">
     <value>Voorstad of lokaliteit</value>
     <comment>Voorstad of lokaliteit</comment>
   </data>
-  <data name="ShipmentDto_City_Description" xml:space="preserve">
+  <data name="Shipment_City_Description" xml:space="preserve">
     <value>Stad of dorp</value>
     <comment>Stad of dorp</comment>
   </data>
-  <data name="ShipmentDto_Region_Description" xml:space="preserve">
+  <data name="Shipment_Region_Description" xml:space="preserve">
     <value>Streek of provinsie</value>
     <comment>Streek of provinsie</comment>
   </data>
-  <data name="ShipmentDto_PostalCode_Description" xml:space="preserve">
+  <data name="Shipment_PostalCode_Description" xml:space="preserve">
     <value>Poskode</value>
     <comment>Poskode</comment>
   </data>
-  <data name="ShipmentDto_Country_Description" xml:space="preserve">
+  <data name="Shipment_Country_Description" xml:space="preserve">
     <value>Land (verstekwaarde is Nieu-Seeland)</value>
     <comment>Land (verstekwaarde is Nieu-Seeland)</comment>
   </data>
   
-  <!-- ShipmentDto Validation Messages -->
-  <data name="ShipmentDto_Id_IsInvalid" xml:space="preserve">
+  <!-- Shipment Validation Messages -->
+  <data name="Shipment_Id_IsInvalid" xml:space="preserve">
     <value>Versending ID is vereist en kan nie leeg wees nie</value>
     <comment>Validasieboodskap vir Id eienskap</comment>
   </data>
-  <data name="ShipmentDto_StreetAddress_IsInvalid" xml:space="preserve">
+  <data name="Shipment_StreetAddress_IsInvalid" xml:space="preserve">
     <value>Straatadres is vereist en moet tussen 5 en 100 karakters wees</value>
     <comment>Validasieboodskap vir StreetAddress eienskap</comment>
   </data>
-  <data name="ShipmentDto_Suburb_IsInvalid" xml:space="preserve">
+  <data name="Shipment_Suburb_IsInvalid" xml:space="preserve">
     <value>Voorstad is vereist en moet tussen 2 en 50 karakters wees</value>
     <comment>Validasieboodskap vir Suburb eienskap</comment>
   </data>
-  <data name="ShipmentDto_City_IsInvalid" xml:space="preserve">
+  <data name="Shipment_City_IsInvalid" xml:space="preserve">
     <value>Stad is vereist en moet tussen 2 en 50 karakters wees</value>
     <comment>Validasieboodskap vir City eienskap</comment>
   </data>
-  <data name="ShipmentDto_Region_IsInvalid" xml:space="preserve">
+  <data name="Shipment_Region_IsInvalid" xml:space="preserve">
     <value>Streek is vereist en moet tussen 2 en 50 karakters wees</value>
     <comment>Validasieboodskap vir Region eienskap</comment>
   </data>
-  <data name="ShipmentDto_PostalCode_IsInvalid" xml:space="preserve">
+  <data name="Shipment_PostalCode_IsInvalid" xml:space="preserve">
     <value>Poskode is vereist en moet presies 4 syfers wees</value>
     <comment>Validasieboodskap vir PostalCode eienskap</comment>
   </data>
-  <data name="ShipmentDto_Country_IsInvalid" xml:space="preserve">
+  <data name="Shipment_Country_IsInvalid" xml:space="preserve">
     <value>Land is vereist en moet tussen 2 en 50 karakters wees</value>
     <comment>Validasieboodskap vir Country eienskap</comment>
   </data>
 
-  <!-- CarrierDto Resources -->
-  <data name="CarrierDto_Title" xml:space="preserve">
+  <!-- Carrier Resources -->
+  <data name="Carrier_Title" xml:space="preserve">
     <value>Vervoerder</value>
     <comment>Data Transfer Object vir Vervoerder inligting</comment>
   </data>
   
-  <!-- CarrierDto Property Names -->
-  <data name="CarrierDto_Id_Name" xml:space="preserve">
+  <!-- Carrier Property Names -->
+  <data name="Carrier_Id_Name" xml:space="preserve">
     <value>Vervoerder ID</value>
     <comment>Unieke identifiseerder vir die vervoerder</comment>
   </data>
-  <data name="CarrierDto_Name_Name" xml:space="preserve">
+  <data name="Carrier_Name_Name" xml:space="preserve">
     <value>Maatskappynaam</value>
     <comment>Naam van die vervoerder maatskappy</comment>
   </data>
-  <data name="CarrierDto_TelephoneNumber_Name" xml:space="preserve">
+  <data name="Carrier_TelephoneNumber_Name" xml:space="preserve">
     <value>Telefoonnommer</value>
     <comment>Telefoonnommer van die vervoerder</comment>
   </data>
   
-  <!-- CarrierDto Property Descriptions -->
-  <data name="CarrierDto_Id_Description" xml:space="preserve">
+  <!-- Carrier Property Descriptions -->
+  <data name="Carrier_Id_Description" xml:space="preserve">
     <value>Unieke identifiseerder vir die vervoerder</value>
     <comment>Unieke identifiseerder vir die vervoerder</comment>
   </data>
-  <data name="CarrierDto_Name_Description" xml:space="preserve">
+  <data name="Carrier_Name_Description" xml:space="preserve">
     <value>Naam van die vervoerder maatskappy</value>
     <comment>Naam van die vervoerder maatskappy</comment>
   </data>
-  <data name="CarrierDto_TelephoneNumber_Description" xml:space="preserve">
+  <data name="Carrier_TelephoneNumber_Description" xml:space="preserve">
     <value>Telefoonnommer van die vervoerder</value>
     <comment>Telefoonnommer van die vervoerder</comment>
   </data>
   
-  <!-- CarrierDto Validation Messages -->
-  <data name="CarrierDto_Id_IsInvalid" xml:space="preserve">
+  <!-- Carrier Validation Messages -->
+  <data name="Carrier_Id_IsInvalid" xml:space="preserve">
     <value>Vervoerder ID is vereist en kan nie leeg wees nie</value>
     <comment>Validasieboodskap vir Id eienskap</comment>
   </data>
-  <data name="CarrierDto_Name_IsInvalid" xml:space="preserve">
+  <data name="Carrier_Name_IsInvalid" xml:space="preserve">
     <value>Maatskappynaam is vereist en moet tussen 2 en 100 karakters wees</value>
     <comment>Validasieboodskap vir Name eienskap</comment>
   </data>
-  <data name="CarrierDto_TelephoneNumber_IsInvalid" xml:space="preserve">
+  <data name="Carrier_TelephoneNumber_IsInvalid" xml:space="preserve">
     <value>Telefoonnommer is vereist en moet 'n geldige NZ telefoonnommer wees</value>
     <comment>Validasieboodskap vir TelephoneNumber eienskap</comment>
   </data>

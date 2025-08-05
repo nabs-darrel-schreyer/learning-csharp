@@ -59,146 +59,146 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   
-  <!-- ShipmentDto Resources -->
-  <data name="ShipmentDto_Title" xml:space="preserve">
+  <!-- Shipment Resources -->
+  <data name="Shipment_Title" xml:space="preserve">
     <value>Shipment</value>
     <comment>Data Transfer Object for Shipment information</comment>
   </data>
   
-  <!-- ShipmentDto Property Names -->
-  <data name="ShipmentDto_Id_Name" xml:space="preserve">
+  <!-- Shipment Property Names -->
+  <data name="Shipment_Id_Name" xml:space="preserve">
     <value>Shipment ID</value>
     <comment>Unique identifier for the shipment</comment>
   </data>
-  <data name="ShipmentDto_StreetAddress_Name" xml:space="preserve">
+  <data name="Shipment_StreetAddress_Name" xml:space="preserve">
     <value>Street Address</value>
     <comment>Street number and name</comment>
   </data>
-  <data name="ShipmentDto_Suburb_Name" xml:space="preserve">
+  <data name="Shipment_Suburb_Name" xml:space="preserve">
     <value>Suburb</value>
     <comment>Suburb or locality</comment>
   </data>
-  <data name="ShipmentDto_City_Name" xml:space="preserve">
+  <data name="Shipment_City_Name" xml:space="preserve">
     <value>City</value>
     <comment>City or town</comment>
   </data>
-  <data name="ShipmentDto_Region_Name" xml:space="preserve">
+  <data name="Shipment_Region_Name" xml:space="preserve">
     <value>Region</value>
     <comment>Region or province</comment>
   </data>
-  <data name="ShipmentDto_PostalCode_Name" xml:space="preserve">
+  <data name="Shipment_PostalCode_Name" xml:space="preserve">
     <value>Postal Code</value>
     <comment>Postal code</comment>
   </data>
-  <data name="ShipmentDto_Country_Name" xml:space="preserve">
+  <data name="Shipment_Country_Name" xml:space="preserve">
     <value>Country</value>
     <comment>Country (defaults to New Zealand)</comment>
   </data>
   
-  <!-- ShipmentDto Property Descriptions -->
-  <data name="ShipmentDto_Id_Description" xml:space="preserve">
+  <!-- Shipment Property Descriptions -->
+  <data name="Shipment_Id_Description" xml:space="preserve">
     <value>Unique identifier for the shipment</value>
     <comment>Unique identifier for the shipment</comment>
   </data>
-  <data name="ShipmentDto_StreetAddress_Description" xml:space="preserve">
+  <data name="Shipment_StreetAddress_Description" xml:space="preserve">
     <value>Street number and name</value>
     <comment>Street number and name</comment>
   </data>
-  <data name="ShipmentDto_Suburb_Description" xml:space="preserve">
+  <data name="Shipment_Suburb_Description" xml:space="preserve">
     <value>Suburb or locality</value>
     <comment>Suburb or locality</comment>
   </data>
-  <data name="ShipmentDto_City_Description" xml:space="preserve">
+  <data name="Shipment_City_Description" xml:space="preserve">
     <value>City or town</value>
     <comment>City or town</comment>
   </data>
-  <data name="ShipmentDto_Region_Description" xml:space="preserve">
+  <data name="Shipment_Region_Description" xml:space="preserve">
     <value>Region or province</value>
     <comment>Region or province</comment>
   </data>
-  <data name="ShipmentDto_PostalCode_Description" xml:space="preserve">
+  <data name="Shipment_PostalCode_Description" xml:space="preserve">
     <value>Postal code</value>
     <comment>Postal code</comment>
   </data>
-  <data name="ShipmentDto_Country_Description" xml:space="preserve">
+  <data name="Shipment_Country_Description" xml:space="preserve">
     <value>Country (defaults to New Zealand)</value>
     <comment>Country (defaults to New Zealand)</comment>
   </data>
   
-  <!-- ShipmentDto Validation Messages -->
-  <data name="ShipmentDto_Id_IsInvalid" xml:space="preserve">
+  <!-- Shipment Validation Messages -->
+  <data name="Shipment_Id_IsInvalid" xml:space="preserve">
     <value>Shipment ID is required and cannot be empty</value>
     <comment>Validation message for Id property</comment>
   </data>
-  <data name="ShipmentDto_StreetAddress_IsInvalid" xml:space="preserve">
+  <data name="Shipment_StreetAddress_IsInvalid" xml:space="preserve">
     <value>Street Address is required and must be between 5 and 100 characters</value>
     <comment>Validation message for StreetAddress property</comment>
   </data>
-  <data name="ShipmentDto_Suburb_IsInvalid" xml:space="preserve">
+  <data name="Shipment_Suburb_IsInvalid" xml:space="preserve">
     <value>Suburb is required and must be between 2 and 50 characters</value>
     <comment>Validation message for Suburb property</comment>
   </data>
-  <data name="ShipmentDto_City_IsInvalid" xml:space="preserve">
+  <data name="Shipment_City_IsInvalid" xml:space="preserve">
     <value>City is required and must be between 2 and 50 characters</value>
     <comment>Validation message for City property</comment>
   </data>
-  <data name="ShipmentDto_Region_IsInvalid" xml:space="preserve">
+  <data name="Shipment_Region_IsInvalid" xml:space="preserve">
     <value>Region is required and must be between 2 and 50 characters</value>
     <comment>Validation message for Region property</comment>
   </data>
-  <data name="ShipmentDto_PostalCode_IsInvalid" xml:space="preserve">
+  <data name="Shipment_PostalCode_IsInvalid" xml:space="preserve">
     <value>Postal Code is required and must be exactly 4 digits</value>
     <comment>Validation message for PostalCode property</comment>
   </data>
-  <data name="ShipmentDto_Country_IsInvalid" xml:space="preserve">
+  <data name="Shipment_Country_IsInvalid" xml:space="preserve">
     <value>Country is required and must be between 2 and 50 characters</value>
     <comment>Validation message for Country property</comment>
   </data>
 
-  <!-- CarrierDto Resources -->
-  <data name="CarrierDto_Title" xml:space="preserve">
+  <!-- Carrier Resources -->
+  <data name="Carrier_Title" xml:space="preserve">
     <value>Carrier</value>
     <comment>Data Transfer Object for Carrier information</comment>
   </data>
   
-  <!-- CarrierDto Property Names -->
-  <data name="CarrierDto_Id_Name" xml:space="preserve">
+  <!-- Carrier Property Names -->
+  <data name="Carrier_Id_Name" xml:space="preserve">
     <value>Carrier ID</value>
     <comment>Unique identifier for the carrier</comment>
   </data>
-  <data name="CarrierDto_Name_Name" xml:space="preserve">
+  <data name="Carrier_Name_Name" xml:space="preserve">
     <value>Company Name</value>
     <comment>Name of the carrier company</comment>
   </data>
-  <data name="CarrierDto_TelephoneNumber_Name" xml:space="preserve">
+  <data name="Carrier_TelephoneNumber_Name" xml:space="preserve">
     <value>Telephone Number</value>
     <comment>Telephone number of the carrier</comment>
   </data>
   
-  <!-- CarrierDto Property Descriptions -->
-  <data name="CarrierDto_Id_Description" xml:space="preserve">
+  <!-- Carrier Property Descriptions -->
+  <data name="Carrier_Id_Description" xml:space="preserve">
     <value>Unique identifier for the carrier</value>
     <comment>Unique identifier for the carrier</comment>
   </data>
-  <data name="CarrierDto_Name_Description" xml:space="preserve">
+  <data name="Carrier_Name_Description" xml:space="preserve">
     <value>Name of the carrier company</value>
     <comment>Name of the carrier company</comment>
   </data>
-  <data name="CarrierDto_TelephoneNumber_Description" xml:space="preserve">
+  <data name="Carrier_TelephoneNumber_Description" xml:space="preserve">
     <value>Telephone number of the carrier</value>
     <comment>Telephone number of the carrier</comment>
   </data>
   
-  <!-- CarrierDto Validation Messages -->
-  <data name="CarrierDto_Id_IsInvalid" xml:space="preserve">
+  <!-- Carrier Validation Messages -->
+  <data name="Carrier_Id_IsInvalid" xml:space="preserve">
     <value>Carrier ID is required and cannot be empty</value>
     <comment>Validation message for Id property</comment>
   </data>
-  <data name="CarrierDto_Name_IsInvalid" xml:space="preserve">
+  <data name="Carrier_Name_IsInvalid" xml:space="preserve">
     <value>Company Name is required and must be between 2 and 100 characters</value>
     <comment>Validation message for Name property</comment>
   </data>
-  <data name="CarrierDto_TelephoneNumber_IsInvalid" xml:space="preserve">
+  <data name="Carrier_TelephoneNumber_IsInvalid" xml:space="preserve">
     <value>Telephone Number is required and must be a valid NZ phone number</value>
     <comment>Validation message for TelephoneNumber property</comment>
   </data>

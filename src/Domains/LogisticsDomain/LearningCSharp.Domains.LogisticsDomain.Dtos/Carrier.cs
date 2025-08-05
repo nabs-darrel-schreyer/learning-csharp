@@ -5,7 +5,7 @@ namespace LearningCSharp.Domains.LogisticsDomain.Dtos;
 /// <summary>
 /// Data Transfer Object for Carrier information
 /// </summary>
-public partial class CarrierDto : ObservableObject
+public partial class Carrier : ObservableObject
 {
     /// <summary>
     /// Unique identifier for the carrier

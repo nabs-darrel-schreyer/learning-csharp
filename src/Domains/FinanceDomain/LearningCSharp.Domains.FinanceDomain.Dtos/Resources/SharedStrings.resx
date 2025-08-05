@@ -59,62 +59,62 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   
-  <!-- BankAccountDto Title -->
-  <data name="BankAccountDto_Title" xml:space="preserve">
+  <!-- BankAccount Title -->
+  <data name="BankAccount_Title" xml:space="preserve">
     <value>Bank Account</value>
-    <comment>Title for BankAccountDto</comment>
+    <comment>Title for BankAccount</comment>
   </data>
   
-  <!-- BankAccountDto Property Names -->
-  <data name="BankAccountDto_Id_Name" xml:space="preserve">
+  <!-- BankAccount Property Names -->
+  <data name="BankAccount_Id_Name" xml:space="preserve">
     <value>Account ID</value>
     <comment>Unique identifier for the bank account</comment>
   </data>
-  <data name="BankAccountDto_AccountNumber_Name" xml:space="preserve">
+  <data name="BankAccount_AccountNumber_Name" xml:space="preserve">
     <value>Account Number</value>
     <comment>The account number</comment>
   </data>
-  <data name="BankAccountDto_AccountHolder_Name" xml:space="preserve">
+  <data name="BankAccount_AccountHolder_Name" xml:space="preserve">
     <value>Account Holder</value>
     <comment>Name of the account holder</comment>
   </data>
-  <data name="BankAccountDto_DateOpened_Name" xml:space="preserve">
+  <data name="BankAccount_DateOpened_Name" xml:space="preserve">
     <value>Date Opened</value>
     <comment>Date when the account was opened</comment>
   </data>
   
-  <!-- BankAccountDto Property Descriptions -->
-  <data name="BankAccountDto_Id_Description" xml:space="preserve">
+  <!-- BankAccount Property Descriptions -->
+  <data name="BankAccount_Id_Description" xml:space="preserve">
     <value>Unique identifier for the bank account</value>
     <comment>Description for Id property</comment>
   </data>
-  <data name="BankAccountDto_AccountNumber_Description" xml:space="preserve">
+  <data name="BankAccount_AccountNumber_Description" xml:space="preserve">
     <value>The account number assigned by the bank</value>
     <comment>Description for AccountNumber property</comment>
   </data>
-  <data name="BankAccountDto_AccountHolder_Description" xml:space="preserve">
+  <data name="BankAccount_AccountHolder_Description" xml:space="preserve">
     <value>Full name of the person who owns the account</value>
     <comment>Description for AccountHolder property</comment>
   </data>
-  <data name="BankAccountDto_DateOpened_Description" xml:space="preserve">
+  <data name="BankAccount_DateOpened_Description" xml:space="preserve">
     <value>The date when the account was first opened</value>
     <comment>Description for DateOpened property</comment>
   </data>
   
-  <!-- BankAccountDto Validation Messages -->
-  <data name="BankAccountDto_Id_IsInvalid" xml:space="preserve">
+  <!-- BankAccount Validation Messages -->
+  <data name="BankAccount_Id_IsInvalid" xml:space="preserve">
     <value>Account ID is required and cannot be empty</value>
     <comment>Validation message for Id property</comment>
   </data>
-  <data name="BankAccountDto_AccountNumber_IsInvalid" xml:space="preserve">
+  <data name="BankAccount_AccountNumber_IsInvalid" xml:space="preserve">
     <value>Account Number is required and must be between 8 and 20 characters</value>
     <comment>Validation message for AccountNumber property</comment>
   </data>
-  <data name="BankAccountDto_AccountHolder_IsInvalid" xml:space="preserve">
+  <data name="BankAccount_AccountHolder_IsInvalid" xml:space="preserve">
     <value>Account Holder name is required and must be between 2 and 100 characters</value>
     <comment>Validation message for AccountHolder property</comment>
   </data>
-  <data name="BankAccountDto_DateOpened_IsInvalid" xml:space="preserve">
+  <data name="BankAccount_DateOpened_IsInvalid" xml:space="preserve">
     <value>Date Opened is required and cannot be in the future</value>
     <comment>Validation message for DateOpened property</comment>
   </data>

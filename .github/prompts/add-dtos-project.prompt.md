@@ -8,6 +8,7 @@ Apply the following rules for creating a `Dtos` project in a C# solution.
 * If the domain is called `Finance`, place the project in `[root]\src\Domains\FinanceDomain`.
 * `Dtos` projects must be associated with a `Domain`.
 * Name `Dtos` projects as `[SolutionName].Domains.[DomainName]Domain.Dtos`.
+* `Dto` class and file names must **never** end with `Dto`. The names should always follow the names that are ubuiquitous to the business domain.
 
 ## Step 1: Check Project Setup
 
@@ -37,6 +38,7 @@ The `Dtos` project must support localization with:
 * Each DTO property must have a localized `Label` and `Description`.
 * Each validation rule must have a localized `Message`.
 * Use the `summary` comment for each dto property as the value for the resource files `comment`.
+* The other language resource comments should be the translations of the English DTO property summary comments, not the English text itself.
 
 1. Create a `Resources` sub-folder in the `Dtos` project if it does not exist.
 2. Add a `SharedStrings.resx` file to the `Resources` sub-folder using the IDE's resource file template to ensure proper formatting and automatic generation of the `SharedStrings.Designer.cs` file.
