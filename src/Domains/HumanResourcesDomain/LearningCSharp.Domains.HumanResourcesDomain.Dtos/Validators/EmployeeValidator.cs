@@ -21,7 +21,7 @@ public class EmployeeValidator : AbstractValidator<Employee>
 
         RuleFor(x => x.EmployeeNumber)
             .NotEmpty()
-            .Length(3, 20)
+            .Length(6, 6)
             .WithMessage(localizer[nameof(SharedStrings.Employee_EmployeeNumber_IsInvalid)]);
 
         RuleFor(x => x.FirstName)

@@ -30,11 +30,11 @@
   </data>
   <data name="Employee_EmployeeNumber_Name" xml:space="preserve">
     <value>Werknemernommer</value>
-    <comment>Werknemer identifikasienommer</comment>
+    <comment>Werknemer identifikasienommer met 'n 6 karakter limiet</comment>
   </data>
   <data name="Employee_EmployeeNumber_Description" xml:space="preserve">
-    <value>Werknemer identifikasienommer</value>
-    <comment>Werknemer identifikasienommer</comment>
+    <value>Werknemer identifikasienommer met 'n 6 karakter limiet</value>
+    <comment>Werknemer identifikasienommer met 'n 6 karakter limiet</comment>
   </data>
   <data name="Employee_FirstName_Name" xml:space="preserve">
     <value>Voornaam</value>
@@ -107,7 +107,7 @@
     <comment>Validasieboodskap vir ongeldige werknemer ID</comment>
   </data>
   <data name="Employee_EmployeeNumber_IsInvalid" xml:space="preserve">
-    <value>Werknemernommer is vereist en moet tussen 3 en 20 karakters wees.</value>
+    <value>Werknemernommer is vereist en moet presies 6 karakters wees.</value>
     <comment>Validasieboodskap vir ongeldige werknemernommer</comment>
   </data>
   <data name="Employee_FirstName_IsInvalid" xml:space="preserve">

@@ -73,11 +73,11 @@
   </data>
   <data name="Employee_EmployeeNumber_Name" xml:space="preserve">
     <value>Employee Number</value>
-    <comment>Employee identification number</comment>
+    <comment>Employee identification number with a 6 character limit</comment>
   </data>
   <data name="Employee_EmployeeNumber_Description" xml:space="preserve">
-    <value>Employee identification number</value>
-    <comment>Employee identification number</comment>
+    <value>Employee identification number with a 6 character limit</value>
+    <comment>Employee identification number with a 6 character limit</comment>
   </data>
   <data name="Employee_FirstName_Name" xml:space="preserve">
     <value>First Name</value>
@@ -150,7 +150,7 @@
     <comment>Validation message for invalid employee ID</comment>
   </data>
   <data name="Employee_EmployeeNumber_IsInvalid" xml:space="preserve">
-    <value>Employee number is required and must be between 3 and 20 characters.</value>
+    <value>Employee number is required and must be exactly 6 characters.</value>
     <comment>Validation message for invalid employee number</comment>
   </data>
   <data name="Employee_FirstName_IsInvalid" xml:space="preserve">
