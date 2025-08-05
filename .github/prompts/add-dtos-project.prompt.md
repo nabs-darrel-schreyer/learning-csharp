@@ -16,7 +16,7 @@ Apply the following rules for creating a `Dtos` project in a C# solution.
 2. Create a C# Class Library project using the naming convention `[SolutionName].Domains.[DomainName]Domain.Dtos`.
 3. Add the `.csproj` file to the solution.
 
-## Step 2: Create Dto Collateral
+## Step 2: Create Dtos and Validators
 
 A `Dtos` project must include:
 * At least one data transfer object (DTO) class.
