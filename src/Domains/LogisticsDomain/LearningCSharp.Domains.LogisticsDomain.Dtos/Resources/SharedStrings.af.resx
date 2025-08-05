@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  <!-- ShipmentDto Resources -->
+  <data name="ShipmentDto_Title" xml:space="preserve">
+    <value>Versending</value>
+    <comment>Data Transfer Object vir Versending inligting</comment>
+  </data>
+  
+  <!-- ShipmentDto Property Names -->
+  <data name="ShipmentDto_Id_Name" xml:space="preserve">
+    <value>Versending ID</value>
+    <comment>Unieke identifiseerder vir die versending</comment>
+  </data>
+  <data name="ShipmentDto_StreetAddress_Name" xml:space="preserve">
+    <value>Straatadres</value>
+    <comment>Straatnommer en naam</comment>
+  </data>
+  <data name="ShipmentDto_Suburb_Name" xml:space="preserve">
+    <value>Voorstad</value>
+    <comment>Voorstad of lokaliteit</comment>
+  </data>
+  <data name="ShipmentDto_City_Name" xml:space="preserve">
+    <value>Stad</value>
+    <comment>Stad of dorp</comment>
+  </data>
+  <data name="ShipmentDto_Region_Name" xml:space="preserve">
+    <value>Streek</value>
+    <comment>Streek of provinsie</comment>
+  </data>
+  <data name="ShipmentDto_PostalCode_Name" xml:space="preserve">
+    <value>Poskode</value>
+    <comment>Poskode</comment>
+  </data>
+  <data name="ShipmentDto_Country_Name" xml:space="preserve">
+    <value>Land</value>
+    <comment>Land (verstekwaarde is Nieu-Seeland)</comment>
+  </data>
+  
+  <!-- ShipmentDto Property Descriptions -->
+  <data name="ShipmentDto_Id_Description" xml:space="preserve">
+    <value>Unieke identifiseerder vir die versending</value>
+    <comment>Unieke identifiseerder vir die versending</comment>
+  </data>
+  <data name="ShipmentDto_StreetAddress_Description" xml:space="preserve">
+    <value>Straatnommer en naam</value>
+    <comment>Straatnommer en naam</comment>
+  </data>
+  <data name="ShipmentDto_Suburb_Description" xml:space="preserve">
+    <value>Voorstad of lokaliteit</value>
+    <comment>Voorstad of lokaliteit</comment>
+  </data>
+  <data name="ShipmentDto_City_Description" xml:space="preserve">
+    <value>Stad of dorp</value>
+    <comment>Stad of dorp</comment>
+  </data>
+  <data name="ShipmentDto_Region_Description" xml:space="preserve">
+    <value>Streek of provinsie</value>
+    <comment>Streek of provinsie</comment>
+  </data>
+  <data name="ShipmentDto_PostalCode_Description" xml:space="preserve">
+    <value>Poskode</value>
+    <comment>Poskode</comment>
+  </data>
+  <data name="ShipmentDto_Country_Description" xml:space="preserve">
+    <value>Land (verstekwaarde is Nieu-Seeland)</value>
+    <comment>Land (verstekwaarde is Nieu-Seeland)</comment>
+  </data>
+  
+  <!-- ShipmentDto Validation Messages -->
+  <data name="ShipmentDto_Id_IsInvalid" xml:space="preserve">
+    <value>Versending ID is vereist en kan nie leeg wees nie</value>
+    <comment>Validasieboodskap vir Id eienskap</comment>
+  </data>
+  <data name="ShipmentDto_StreetAddress_IsInvalid" xml:space="preserve">
+    <value>Straatadres is vereist en moet tussen 5 en 100 karakters wees</value>
+    <comment>Validasieboodskap vir StreetAddress eienskap</comment>
+  </data>
+  <data name="ShipmentDto_Suburb_IsInvalid" xml:space="preserve">
+    <value>Voorstad is vereist en moet tussen 2 en 50 karakters wees</value>
+    <comment>Validasieboodskap vir Suburb eienskap</comment>
+  </data>
+  <data name="ShipmentDto_City_IsInvalid" xml:space="preserve">
+    <value>Stad is vereist en moet tussen 2 en 50 karakters wees</value>
+    <comment>Validasieboodskap vir City eienskap</comment>
+  </data>
+  <data name="ShipmentDto_Region_IsInvalid" xml:space="preserve">
+    <value>Streek is vereist en moet tussen 2 en 50 karakters wees</value>
+    <comment>Validasieboodskap vir Region eienskap</comment>
+  </data>
+  <data name="ShipmentDto_PostalCode_IsInvalid" xml:space="preserve">
+    <value>Poskode is vereist en moet presies 4 syfers wees</value>
+    <comment>Validasieboodskap vir PostalCode eienskap</comment>
+  </data>
+  <data name="ShipmentDto_Country_IsInvalid" xml:space="preserve">
+    <value>Land is vereist en moet tussen 2 en 50 karakters wees</value>
+    <comment>Validasieboodskap vir Country eienskap</comment>
+  </data>
+
+  <!-- CarrierDto Resources -->
+  <data name="CarrierDto_Title" xml:space="preserve">
+    <value>Vervoerder</value>
+    <comment>Data Transfer Object vir Vervoerder inligting</comment>
+  </data>
+  
+  <!-- CarrierDto Property Names -->
+  <data name="CarrierDto_Id_Name" xml:space="preserve">
+    <value>Vervoerder ID</value>
+    <comment>Unieke identifiseerder vir die vervoerder</comment>
+  </data>
+  <data name="CarrierDto_Name_Name" xml:space="preserve">
+    <value>Maatskappynaam</value>
+    <comment>Naam van die vervoerder maatskappy</comment>
+  </data>
+  <data name="CarrierDto_TelephoneNumber_Name" xml:space="preserve">
+    <value>Telefoonnommer</value>
+    <comment>Telefoonnommer van die vervoerder</comment>
+  </data>
+  
+  <!-- CarrierDto Property Descriptions -->
+  <data name="CarrierDto_Id_Description" xml:space="preserve">
+    <value>Unieke identifiseerder vir die vervoerder</value>
+    <comment>Unieke identifiseerder vir die vervoerder</comment>
+  </data>
+  <data name="CarrierDto_Name_Description" xml:space="preserve">
+    <value>Naam van die vervoerder maatskappy</value>
+    <comment>Naam van die vervoerder maatskappy</comment>
+  </data>
+  <data name="CarrierDto_TelephoneNumber_Description" xml:space="preserve">
+    <value>Telefoonnommer van die vervoerder</value>
+    <comment>Telefoonnommer van die vervoerder</comment>
+  </data>
+  
+  <!-- CarrierDto Validation Messages -->
+  <data name="CarrierDto_Id_IsInvalid" xml:space="preserve">
+    <value>Vervoerder ID is vereist en kan nie leeg wees nie</value>
+    <comment>Validasieboodskap vir Id eienskap</comment>
+  </data>
+  <data name="CarrierDto_Name_IsInvalid" xml:space="preserve">
+    <value>Maatskappynaam is vereist en moet tussen 2 en 100 karakters wees</value>
+    <comment>Validasieboodskap vir Name eienskap</comment>
+  </data>
+  <data name="CarrierDto_TelephoneNumber_IsInvalid" xml:space="preserve">
+    <value>Telefoonnommer is vereist en moet 'n geldige NZ telefoonnommer wees</value>
+    <comment>Validasieboodskap vir TelephoneNumber eienskap</comment>
+  </data>
+</root>

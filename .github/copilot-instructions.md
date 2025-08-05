@@ -15,3 +15,6 @@
 * All unit test project folder are in the `tests` sub-folder from the root folder.
 * All documentation can be found in the `docs` sub-folder from the root folder.
 
+## C# Types
+
+* Always use file level namespacing.
