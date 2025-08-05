@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  <!-- Employee Class Title -->
+  <data name="Employee_Title" xml:space="preserve">
+    <value>Werknemer</value>
+    <comment>Data-oordragvoorwerp vir werknemersinligting</comment>
+  </data>
+  
+  <!-- Employee Properties -->
+  <data name="Employee_Id_Name" xml:space="preserve">
+    <value>ID</value>
+    <comment>Unieke identifiseerder vir die werknemer</comment>
+  </data>
+  <data name="Employee_Id_Description" xml:space="preserve">
+    <value>Unieke identifiseerder vir die werknemer</value>
+    <comment>Unieke identifiseerder vir die werknemer</comment>
+  </data>
+  <data name="Employee_EmployeeNumber_Name" xml:space="preserve">
+    <value>Werknemernommer</value>
+    <comment>Werknemer identifikasienommer</comment>
+  </data>
+  <data name="Employee_EmployeeNumber_Description" xml:space="preserve">
+    <value>Werknemer identifikasienommer</value>
+    <comment>Werknemer identifikasienommer</comment>
+  </data>
+  <data name="Employee_FirstName_Name" xml:space="preserve">
+    <value>Voornaam</value>
+    <comment>Voornaam van die werknemer</comment>
+  </data>
+  <data name="Employee_FirstName_Description" xml:space="preserve">
+    <value>Voornaam van die werknemer</value>
+    <comment>Voornaam van die werknemer</comment>
+  </data>
+  <data name="Employee_LastName_Name" xml:space="preserve">
+    <value>Van</value>
+    <comment>Van van die werknemer</comment>
+  </data>
+  <data name="Employee_LastName_Description" xml:space="preserve">
+    <value>Van van die werknemer</value>
+    <comment>Van van die werknemer</comment>
+  </data>
+  <data name="Employee_Email_Name" xml:space="preserve">
+    <value>E-pos</value>
+    <comment>E-posadres van die werknemer</comment>
+  </data>
+  <data name="Employee_Email_Description" xml:space="preserve">
+    <value>E-posadres van die werknemer</value>
+    <comment>E-posadres van die werknemer</comment>
+  </data>
+  <data name="Employee_JobTitle_Name" xml:space="preserve">
+    <value>Postitel</value>
+    <comment>Postitel of posisie van die werknemer</comment>
+  </data>
+  <data name="Employee_JobTitle_Description" xml:space="preserve">
+    <value>Postitel of posisie van die werknemer</value>
+    <comment>Postitel of posisie van die werknemer</comment>
+  </data>
+  <data name="Employee_Department_Name" xml:space="preserve">
+    <value>Departement</value>
+    <comment>Departement waar die werknemer werk</comment>
+  </data>
+  <data name="Employee_Department_Description" xml:space="preserve">
+    <value>Departement waar die werknemer werk</value>
+    <comment>Departement waar die werknemer werk</comment>
+  </data>
+  <data name="Employee_HireDate_Name" xml:space="preserve">
+    <value>Aanstelhdatum</value>
+    <comment>Datum wanneer die werknemer aangestel is</comment>
+  </data>
+  <data name="Employee_HireDate_Description" xml:space="preserve">
+    <value>Datum wanneer die werknemer aangestel is</value>
+    <comment>Datum wanneer die werknemer aangestel is</comment>
+  </data>
+  <data name="Employee_Salary_Name" xml:space="preserve">
+    <value>Salaris</value>
+    <comment>Jaarlikse salaris van die werknemer</comment>
+  </data>
+  <data name="Employee_Salary_Description" xml:space="preserve">
+    <value>Jaarlikse salaris van die werknemer</value>
+    <comment>Jaarlikse salaris van die werknemer</comment>
+  </data>
+  <data name="Employee_IsActive_Name" xml:space="preserve">
+    <value>Is Aktief</value>
+    <comment>Dui aan of die werknemer tans aktief is</comment>
+  </data>
+  <data name="Employee_IsActive_Description" xml:space="preserve">
+    <value>Dui aan of die werknemer tans aktief is</value>
+    <comment>Dui aan of die werknemer tans aktief is</comment>
+  </data>
+  
+  <!-- Employee Validation Messages -->
+  <data name="Employee_Id_IsInvalid" xml:space="preserve">
+    <value>Werknemer ID is vereist.</value>
+    <comment>Validasieboodskap vir ongeldige werknemer ID</comment>
+  </data>
+  <data name="Employee_EmployeeNumber_IsInvalid" xml:space="preserve">
+    <value>Werknemernommer is vereist en moet tussen 3 en 20 karakters wees.</value>
+    <comment>Validasieboodskap vir ongeldige werknemernommer</comment>
+  </data>
+  <data name="Employee_FirstName_IsInvalid" xml:space="preserve">
+    <value>Voornaam is vereist en moet tussen 2 en 50 karakters wees.</value>
+    <comment>Validasieboodskap vir ongeldige voornaam</comment>
+  </data>
+  <data name="Employee_LastName_IsInvalid" xml:space="preserve">
+    <value>Van is vereist en moet tussen 2 en 50 karakters wees.</value>
+    <comment>Validasieboodskap vir ongeldige van</comment>
+  </data>
+  <data name="Employee_Email_IsInvalid" xml:space="preserve">
+    <value>E-posadres is vereist en moet 'n geldige e-posformaat wees.</value>
+    <comment>Validasieboodskap vir ongeldige e-pos</comment>
+  </data>
+  <data name="Employee_JobTitle_IsInvalid" xml:space="preserve">
+    <value>Postitel is vereist en moet tussen 2 en 100 karakters wees.</value>
+    <comment>Validasieboodskap vir ongeldige postitel</comment>
+  </data>
+  <data name="Employee_Department_IsInvalid" xml:space="preserve">
+    <value>Departement is vereist en moet tussen 2 en 100 karakters wees.</value>
+    <comment>Validasieboodskap vir ongeldige departement</comment>
+  </data>
+  <data name="Employee_HireDate_IsInvalid" xml:space="preserve">
+    <value>Aanstelhdatum is vereist en kan nie in die toekoms wees nie.</value>
+    <comment>Validasieboodskap vir ongeldige aanstelhdatum</comment>
+  </data>
+  <data name="Employee_Salary_IsInvalid" xml:space="preserve">
+    <value>Salaris moet groter as 0 wees.</value>
+    <comment>Validasieboodskap vir ongeldige salaris</comment>
+  </data>
+  
+  <!-- Manager Class Title -->
+  <data name="Manager_Title" xml:space="preserve">
+    <value>Bestuurder</value>
+    <comment>Data-oordragvoorwerp vir bestuurdersinligting</comment>
+  </data>
+  
+  <!-- Manager Properties -->
+  <data name="Manager_Id_Name" xml:space="preserve">
+    <value>ID</value>
+    <comment>Unieke identifiseerder vir die bestuurder</comment>
+  </data>
+  <data name="Manager_Id_Description" xml:space="preserve">
+    <value>Unieke identifiseerder vir die bestuurder</value>
+    <comment>Unieke identifiseerder vir die bestuurder</comment>
+  </data>
+  <data name="Manager_ManagerNumber_Name" xml:space="preserve">
+    <value>Bestuurvernommer</value>
+    <comment>Bestuurder identifikasienommer</comment>
+  </data>
+  <data name="Manager_ManagerNumber_Description" xml:space="preserve">
+    <value>Bestuurder identifikasienommer</value>
+    <comment>Bestuurder identifikasienommer</comment>
+  </data>
+  <data name="Manager_FirstName_Name" xml:space="preserve">
+    <value>Voornaam</value>
+    <comment>Voornaam van die bestuurder</comment>
+  </data>
+  <data name="Manager_FirstName_Description" xml:space="preserve">
+    <value>Voornaam van die bestuurder</value>
+    <comment>Voornaam van die bestuurder</comment>
+  </data>
+  <data name="Manager_LastName_Name" xml:space="preserve">
+    <value>Van</value>
+    <comment>Van van die bestuurder</comment>
+  </data>
+  <data name="Manager_LastName_Description" xml:space="preserve">
+    <value>Van van die bestuurder</value>
+    <comment>Van van die bestuurder</comment>
+  </data>
+  <data name="Manager_Email_Name" xml:space="preserve">
+    <value>E-pos</value>
+    <comment>E-posadres van die bestuurder</comment>
+  </data>
+  <data name="Manager_Email_Description" xml:space="preserve">
+    <value>E-posadres van die bestuurder</value>
+    <comment>E-posadres van die bestuurder</comment>
+  </data>
+  <data name="Manager_ManagementLevel_Name" xml:space="preserve">
+    <value>Bestuursvlak</value>
+    <comment>Bestuursvlak van die bestuurder</comment>
+  </data>
+  <data name="Manager_ManagementLevel_Description" xml:space="preserve">
+    <value>Bestuursvlak van die bestuurder</value>
+    <comment>Bestuursvlak van die bestuurder</comment>
+  </data>
+  <data name="Manager_Department_Name" xml:space="preserve">
+    <value>Departement</value>
+    <comment>Departement wat die bestuurder toesig hou</comment>
+  </data>
+  <data name="Manager_Department_Description" xml:space="preserve">
+    <value>Departement wat die bestuurder toesig hou</value>
+    <comment>Departement wat die bestuurder toesig hou</comment>
+  </data>
+  <data name="Manager_DirectReportsCount_Name" xml:space="preserve">
+    <value>Direkte Rapporte Telling</value>
+    <comment>Aantal direkte rapporte onder hierdie bestuurder</comment>
+  </data>
+  <data name="Manager_DirectReportsCount_Description" xml:space="preserve">
+    <value>Aantal direkte rapporte onder hierdie bestuurder</value>
+    <comment>Aantal direkte rapporte onder hierdie bestuurder</comment>
+  </data>
+  <data name="Manager_ManagementStartDate_Name" xml:space="preserve">
+    <value>Bestuur Begindatum</value>
+    <comment>Datum wanneer die bestuurder in bestuursrol begin het</comment>
+  </data>
+  <data name="Manager_ManagementStartDate_Description" xml:space="preserve">
+    <value>Datum wanneer die bestuurder in bestuursrol begin het</value>
+    <comment>Datum wanneer die bestuurder in bestuursrol begin het</comment>
+  </data>
+  <data name="Manager_Salary_Name" xml:space="preserve">
+    <value>Salaris</value>
+    <comment>Jaarlikse salaris van die bestuurder</comment>
+  </data>
+  <data name="Manager_Salary_Description" xml:space="preserve">
+    <value>Jaarlikse salaris van die bestuurder</value>
+    <comment>Jaarlikse salaris van die bestuurder</comment>
+  </data>
+  <data name="Manager_IsActive_Name" xml:space="preserve">
+    <value>Is Aktief</value>
+    <comment>Dui aan of die bestuurder tans aktief is</comment>
+  </data>
+  <data name="Manager_IsActive_Description" xml:space="preserve">
+    <value>Dui aan of die bestuurder tans aktief is</value>
+    <comment>Dui aan of die bestuurder tans aktief is</comment>
+  </data>
+  
+  <!-- Manager Validation Messages -->
+  <data name="Manager_Id_IsInvalid" xml:space="preserve">
+    <value>Bestuurder ID is vereist.</value>
+    <comment>Validasieboodskap vir ongeldige bestuurder ID</comment>
+  </data>
+  <data name="Manager_ManagerNumber_IsInvalid" xml:space="preserve">
+    <value>Bestuurvernommer is vereist en moet tussen 3 en 20 karakters wees.</value>
+    <comment>Validasieboodskap vir ongeldige bestuurvernommer</comment>
+  </data>
+  <data name="Manager_FirstName_IsInvalid" xml:space="preserve">
+    <value>Voornaam is vereist en moet tussen 2 en 50 karakters wees.</value>
+    <comment>Validasieboodskap vir ongeldige voornaam</comment>
+  </data>
+  <data name="Manager_LastName_IsInvalid" xml:space="preserve">
+    <value>Van is vereist en moet tussen 2 en 50 karakters wees.</value>
+    <comment>Validasieboodskap vir ongeldige van</comment>
+  </data>
+  <data name="Manager_Email_IsInvalid" xml:space="preserve">
+    <value>E-posadres is vereist en moet 'n geldige e-posformaat wees.</value>
+    <comment>Validasieboodskap vir ongeldige e-pos</comment>
+  </data>
+  <data name="Manager_ManagementLevel_IsInvalid" xml:space="preserve">
+    <value>Bestuursvlak is vereist en moet tussen 2 en 50 karakters wees.</value>
+    <comment>Validasieboodskap vir ongeldige bestuursvlak</comment>
+  </data>
+  <data name="Manager_Department_IsInvalid" xml:space="preserve">
+    <value>Departement is vereist en moet tussen 2 en 100 karakters wees.</value>
+    <comment>Validasieboodskap vir ongeldige departement</comment>
+  </data>
+  <data name="Manager_DirectReportsCount_IsInvalid" xml:space="preserve">
+    <value>Direkte rapporte telling moet 0 of groter wees.</value>
+    <comment>Validasieboodskap vir ongeldige direkte rapporte telling</comment>
+  </data>
+  <data name="Manager_ManagementStartDate_IsInvalid" xml:space="preserve">
+    <value>Bestuur begindatum is vereist en kan nie in die toekoms wees nie.</value>
+    <comment>Validasieboodskap vir ongeldige bestuur begindatum</comment>
+  </data>
+  <data name="Manager_Salary_IsInvalid" xml:space="preserve">
+    <value>Salaris moet groter as 0 wees.</value>
+    <comment>Validasieboodskap vir ongeldige salaris</comment>
+  </data>
+</root>

@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion. Mimetype is used for serialized objects, and tells you the 
+    mimetype of the object. If the type is not a type that has a text/value 
+    conversion for it, then it has to be serialized as a byte array and referenced 
+    by the resheader.
+    
+    There are also type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion. Mimetype is used for serialized objects, and tells you the 
+    mimetype of the object. If the type is not a type that has a text/value 
+    conversion for it, then it has to be serialized as a byte array and referenced 
+    by the resheader.
+  -->
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  <!-- Employee Class Title -->
+  <data name="Employee_Title" xml:space="preserve">
+    <value>Employee</value>
+    <comment>Data Transfer Object for Employee information</comment>
+  </data>
+  
+  <!-- Employee Properties -->
+  <data name="Employee_Id_Name" xml:space="preserve">
+    <value>ID</value>
+    <comment>Unique identifier for the employee</comment>
+  </data>
+  <data name="Employee_Id_Description" xml:space="preserve">
+    <value>Unique identifier for the employee</value>
+    <comment>Unique identifier for the employee</comment>
+  </data>
+  <data name="Employee_EmployeeNumber_Name" xml:space="preserve">
+    <value>Employee Number</value>
+    <comment>Employee identification number</comment>
+  </data>
+  <data name="Employee_EmployeeNumber_Description" xml:space="preserve">
+    <value>Employee identification number</value>
+    <comment>Employee identification number</comment>
+  </data>
+  <data name="Employee_FirstName_Name" xml:space="preserve">
+    <value>First Name</value>
+    <comment>First name of the employee</comment>
+  </data>
+  <data name="Employee_FirstName_Description" xml:space="preserve">
+    <value>First name of the employee</value>
+    <comment>First name of the employee</comment>
+  </data>
+  <data name="Employee_LastName_Name" xml:space="preserve">
+    <value>Last Name</value>
+    <comment>Last name of the employee</comment>
+  </data>
+  <data name="Employee_LastName_Description" xml:space="preserve">
+    <value>Last name of the employee</value>
+    <comment>Last name of the employee</comment>
+  </data>
+  <data name="Employee_Email_Name" xml:space="preserve">
+    <value>Email</value>
+    <comment>Email address of the employee</comment>
+  </data>
+  <data name="Employee_Email_Description" xml:space="preserve">
+    <value>Email address of the employee</value>
+    <comment>Email address of the employee</comment>
+  </data>
+  <data name="Employee_JobTitle_Name" xml:space="preserve">
+    <value>Job Title</value>
+    <comment>Job title or position of the employee</comment>
+  </data>
+  <data name="Employee_JobTitle_Description" xml:space="preserve">
+    <value>Job title or position of the employee</value>
+    <comment>Job title or position of the employee</comment>
+  </data>
+  <data name="Employee_Department_Name" xml:space="preserve">
+    <value>Department</value>
+    <comment>Department where the employee works</comment>
+  </data>
+  <data name="Employee_Department_Description" xml:space="preserve">
+    <value>Department where the employee works</value>
+    <comment>Department where the employee works</comment>
+  </data>
+  <data name="Employee_HireDate_Name" xml:space="preserve">
+    <value>Hire Date</value>
+    <comment>Date when the employee was hired</comment>
+  </data>
+  <data name="Employee_HireDate_Description" xml:space="preserve">
+    <value>Date when the employee was hired</value>
+    <comment>Date when the employee was hired</comment>
+  </data>
+  <data name="Employee_Salary_Name" xml:space="preserve">
+    <value>Salary</value>
+    <comment>Annual salary of the employee</comment>
+  </data>
+  <data name="Employee_Salary_Description" xml:space="preserve">
+    <value>Annual salary of the employee</value>
+    <comment>Annual salary of the employee</comment>
+  </data>
+  <data name="Employee_IsActive_Name" xml:space="preserve">
+    <value>Is Active</value>
+    <comment>Indicates if the employee is currently active</comment>
+  </data>
+  <data name="Employee_IsActive_Description" xml:space="preserve">
+    <value>Indicates if the employee is currently active</value>
+    <comment>Indicates if the employee is currently active</comment>
+  </data>
+  
+  <!-- Employee Validation Messages -->
+  <data name="Employee_Id_IsInvalid" xml:space="preserve">
+    <value>Employee ID is required.</value>
+    <comment>Validation message for invalid employee ID</comment>
+  </data>
+  <data name="Employee_EmployeeNumber_IsInvalid" xml:space="preserve">
+    <value>Employee number is required and must be between 3 and 20 characters.</value>
+    <comment>Validation message for invalid employee number</comment>
+  </data>
+  <data name="Employee_FirstName_IsInvalid" xml:space="preserve">
+    <value>First name is required and must be between 2 and 50 characters.</value>
+    <comment>Validation message for invalid first name</comment>
+  </data>
+  <data name="Employee_LastName_IsInvalid" xml:space="preserve">
+    <value>Last name is required and must be between 2 and 50 characters.</value>
+    <comment>Validation message for invalid last name</comment>
+  </data>
+  <data name="Employee_Email_IsInvalid" xml:space="preserve">
+    <value>Email address is required and must be a valid email format.</value>
+    <comment>Validation message for invalid email</comment>
+  </data>
+  <data name="Employee_JobTitle_IsInvalid" xml:space="preserve">
+    <value>Job title is required and must be between 2 and 100 characters.</value>
+    <comment>Validation message for invalid job title</comment>
+  </data>
+  <data name="Employee_Department_IsInvalid" xml:space="preserve">
+    <value>Department is required and must be between 2 and 100 characters.</value>
+    <comment>Validation message for invalid department</comment>
+  </data>
+  <data name="Employee_HireDate_IsInvalid" xml:space="preserve">
+    <value>Hire date is required and cannot be in the future.</value>
+    <comment>Validation message for invalid hire date</comment>
+  </data>
+  <data name="Employee_Salary_IsInvalid" xml:space="preserve">
+    <value>Salary must be greater than 0.</value>
+    <comment>Validation message for invalid salary</comment>
+  </data>
+  
+  <!-- Manager Class Title -->
+  <data name="Manager_Title" xml:space="preserve">
+    <value>Manager</value>
+    <comment>Data Transfer Object for Manager information</comment>
+  </data>
+  
+  <!-- Manager Properties -->
+  <data name="Manager_Id_Name" xml:space="preserve">
+    <value>ID</value>
+    <comment>Unique identifier for the manager</comment>
+  </data>
+  <data name="Manager_Id_Description" xml:space="preserve">
+    <value>Unique identifier for the manager</value>
+    <comment>Unique identifier for the manager</comment>
+  </data>
+  <data name="Manager_ManagerNumber_Name" xml:space="preserve">
+    <value>Manager Number</value>
+    <comment>Manager identification number</comment>
+  </data>
+  <data name="Manager_ManagerNumber_Description" xml:space="preserve">
+    <value>Manager identification number</value>
+    <comment>Manager identification number</comment>
+  </data>
+  <data name="Manager_FirstName_Name" xml:space="preserve">
+    <value>First Name</value>
+    <comment>First name of the manager</comment>
+  </data>
+  <data name="Manager_FirstName_Description" xml:space="preserve">
+    <value>First name of the manager</value>
+    <comment>First name of the manager</comment>
+  </data>
+  <data name="Manager_LastName_Name" xml:space="preserve">
+    <value>Last Name</value>
+    <comment>Last name of the manager</comment>
+  </data>
+  <data name="Manager_LastName_Description" xml:space="preserve">
+    <value>Last name of the manager</value>
+    <comment>Last name of the manager</comment>
+  </data>
+  <data name="Manager_Email_Name" xml:space="preserve">
+    <value>Email</value>
+    <comment>Email address of the manager</comment>
+  </data>
+  <data name="Manager_Email_Description" xml:space="preserve">
+    <value>Email address of the manager</value>
+    <comment>Email address of the manager</comment>
+  </data>
+  <data name="Manager_ManagementLevel_Name" xml:space="preserve">
+    <value>Management Level</value>
+    <comment>Management level of the manager</comment>
+  </data>
+  <data name="Manager_ManagementLevel_Description" xml:space="preserve">
+    <value>Management level of the manager</value>
+    <comment>Management level of the manager</comment>
+  </data>
+  <data name="Manager_Department_Name" xml:space="preserve">
+    <value>Department</value>
+    <comment>Department that the manager oversees</comment>
+  </data>
+  <data name="Manager_Department_Description" xml:space="preserve">
+    <value>Department that the manager oversees</value>
+    <comment>Department that the manager oversees</comment>
+  </data>
+  <data name="Manager_DirectReportsCount_Name" xml:space="preserve">
+    <value>Direct Reports Count</value>
+    <comment>Number of direct reports under this manager</comment>
+  </data>
+  <data name="Manager_DirectReportsCount_Description" xml:space="preserve">
+    <value>Number of direct reports under this manager</value>
+    <comment>Number of direct reports under this manager</comment>
+  </data>
+  <data name="Manager_ManagementStartDate_Name" xml:space="preserve">
+    <value>Management Start Date</value>
+    <comment>Date when the manager started in management role</comment>
+  </data>
+  <data name="Manager_ManagementStartDate_Description" xml:space="preserve">
+    <value>Date when the manager started in management role</value>
+    <comment>Date when the manager started in management role</comment>
+  </data>
+  <data name="Manager_Salary_Name" xml:space="preserve">
+    <value>Salary</value>
+    <comment>Annual salary of the manager</comment>
+  </data>
+  <data name="Manager_Salary_Description" xml:space="preserve">
+    <value>Annual salary of the manager</value>
+    <comment>Annual salary of the manager</comment>
+  </data>
+  <data name="Manager_IsActive_Name" xml:space="preserve">
+    <value>Is Active</value>
+    <comment>Indicates if the manager is currently active</comment>
+  </data>
+  <data name="Manager_IsActive_Description" xml:space="preserve">
+    <value>Indicates if the manager is currently active</value>
+    <comment>Indicates if the manager is currently active</comment>
+  </data>
+  
+  <!-- Manager Validation Messages -->
+  <data name="Manager_Id_IsInvalid" xml:space="preserve">
+    <value>Manager ID is required.</value>
+    <comment>Validation message for invalid manager ID</comment>
+  </data>
+  <data name="Manager_ManagerNumber_IsInvalid" xml:space="preserve">
+    <value>Manager number is required and must be between 3 and 20 characters.</value>
+    <comment>Validation message for invalid manager number</comment>
+  </data>
+  <data name="Manager_FirstName_IsInvalid" xml:space="preserve">
+    <value>First name is required and must be between 2 and 50 characters.</value>
+    <comment>Validation message for invalid first name</comment>
+  </data>
+  <data name="Manager_LastName_IsInvalid" xml:space="preserve">
+    <value>Last name is required and must be between 2 and 50 characters.</value>
+    <comment>Validation message for invalid last name</comment>
+  </data>
+  <data name="Manager_Email_IsInvalid" xml:space="preserve">
+    <value>Email address is required and must be a valid email format.</value>
+    <comment>Validation message for invalid email</comment>
+  </data>
+  <data name="Manager_ManagementLevel_IsInvalid" xml:space="preserve">
+    <value>Management level is required and must be between 2 and 50 characters.</value>
+    <comment>Validation message for invalid management level</comment>
+  </data>
+  <data name="Manager_Department_IsInvalid" xml:space="preserve">
+    <value>Department is required and must be between 2 and 100 characters.</value>
+    <comment>Validation message for invalid department</comment>
+  </data>
+  <data name="Manager_DirectReportsCount_IsInvalid" xml:space="preserve">
+    <value>Direct reports count must be 0 or greater.</value>
+    <comment>Validation message for invalid direct reports count</comment>
+  </data>
+  <data name="Manager_ManagementStartDate_IsInvalid" xml:space="preserve">
+    <value>Management start date is required and cannot be in the future.</value>
+    <comment>Validation message for invalid management start date</comment>
+  </data>
+  <data name="Manager_Salary_IsInvalid" xml:space="preserve">
+    <value>Salary must be greater than 0.</value>
+    <comment>Validation message for invalid salary</comment>
+  </data>
+</root>
