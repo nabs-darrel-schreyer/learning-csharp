@@ -24,9 +24,9 @@ A `Dtos` project must include:
 
 1. Prompt the user for the DTO name, which will be used for the class and file name.
 2. Create the following files in the project:
-   - **DTO Class File**: A C# partial class inheriting from `ObservableObject`.
+   - **Dto Class File**: A C# partial class inheriting from `ObservableObject`.
      - Properties must use private member variables with the `[ObservableProperty]` attribute, named as `_[propertyName]`.
-   - **Validator Class File**: A C# class inheriting from `FluentValidation.ValidatorBase<T>`, where `T` is the DTO class.
+   - **Validator Class File**: A C# class inheriting from `AbstractValidator<T>`, where `T` is the DTO class.
      - The constructor must take an `IStringLocalizer<SharedStrings>` parameter for localization.
      - Each validation rule must use `.WithMessage(localizer[nameof(SharedStrings.[ResourceName])])`.
 

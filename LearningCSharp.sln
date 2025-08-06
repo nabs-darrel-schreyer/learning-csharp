@@ -1,3 +1,4 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
@@ -19,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningCSharp.Domains.HumanResourcesDomain.Dtos", "src\Domains\HumanResourcesDomain\LearningCSharp.Domains.HumanResourcesDomain.Dtos\LearningCSharp.Domains.HumanResourcesDomain.Dtos.csproj", "{B177BAC7-8107-4597-8680-16D7ED1B317A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningCSharp.Domains.FinanceDomain.Persistence", "src\Domains\FinanceDomain\LearningCSharp.Domains.FinanceDomain.Persistence\LearningCSharp.Domains.FinanceDomain.Persistence.csproj", "{9DAD1ED1-C8DE-4829-8170-3676E9189A5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningCSharp.Domains.LogisticsDomain.Persistence", "src\Domains\LogisticsDomain\LearningCSharp.Domains.LogisticsDomain.Persistence\LearningCSharp.Domains.LogisticsDomain.Persistence.csproj", "{1B0D2211-1888-40E0-B1F2-E3622B408A8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -78,6 +81,18 @@ Global
 		{9DAD1ED1-C8DE-4829-8170-3676E9189A5E}.Release|x64.Build.0 = Release|Any CPU
 		{9DAD1ED1-C8DE-4829-8170-3676E9189A5E}.Release|x86.ActiveCfg = Release|Any CPU
 		{9DAD1ED1-C8DE-4829-8170-3676E9189A5E}.Release|x86.Build.0 = Release|Any CPU
+		{1B0D2211-1888-40E0-B1F2-E3622B408A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B0D2211-1888-40E0-B1F2-E3622B408A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B0D2211-1888-40E0-B1F2-E3622B408A8A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1B0D2211-1888-40E0-B1F2-E3622B408A8A}.Debug|x64.Build.0 = Debug|Any CPU
+		{1B0D2211-1888-40E0-B1F2-E3622B408A8A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1B0D2211-1888-40E0-B1F2-E3622B408A8A}.Debug|x86.Build.0 = Debug|Any CPU
+		{1B0D2211-1888-40E0-B1F2-E3622B408A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B0D2211-1888-40E0-B1F2-E3622B408A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B0D2211-1888-40E0-B1F2-E3622B408A8A}.Release|x64.ActiveCfg = Release|Any CPU
+		{1B0D2211-1888-40E0-B1F2-E3622B408A8A}.Release|x64.Build.0 = Release|Any CPU
+		{1B0D2211-1888-40E0-B1F2-E3622B408A8A}.Release|x86.ActiveCfg = Release|Any CPU
+		{1B0D2211-1888-40E0-B1F2-E3622B408A8A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,5 +106,6 @@ Global
 		{6B0F4C0E-C505-C2B5-496E-0CB4EBB333F0} = {55B8E2B3-FCE6-896E-E028-E6393D6A9606}
 		{B177BAC7-8107-4597-8680-16D7ED1B317A} = {6B0F4C0E-C505-C2B5-496E-0CB4EBB333F0}
 		{9DAD1ED1-C8DE-4829-8170-3676E9189A5E} = {8FBF9772-F02F-8003-AB81-2B9B1971CB8D}
+		{1B0D2211-1888-40E0-B1F2-E3622B408A8A} = {C4D0AF0A-E49B-0E75-845F-CB1798838E84}
 	EndGlobalSection
 EndGlobal

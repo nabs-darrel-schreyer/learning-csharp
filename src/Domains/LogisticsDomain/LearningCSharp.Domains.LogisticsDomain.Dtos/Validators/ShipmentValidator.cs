@@ -21,17 +21,17 @@ public class ShipmentValidator : AbstractValidator<Shipment>
 
         RuleFor(x => x.StreetAddress)
             .NotEmpty()
-            .Length(5, 100)
+            .Length(5, 200)
             .WithMessage(localizer[nameof(SharedStrings.Shipment_StreetAddress_IsInvalid)]);
 
         RuleFor(x => x.Suburb)
             .NotEmpty()
-            .Length(2, 50)
+            .Length(2, 100)
             .WithMessage(localizer[nameof(SharedStrings.Shipment_Suburb_IsInvalid)]);
 
         RuleFor(x => x.City)
             .NotEmpty()
-            .Length(2, 50)
+            .Length(2, 100)
             .WithMessage(localizer[nameof(SharedStrings.Shipment_City_IsInvalid)]);
 
         RuleFor(x => x.Region)
@@ -41,12 +41,12 @@ public class ShipmentValidator : AbstractValidator<Shipment>
 
         RuleFor(x => x.PostalCode)
             .NotEmpty()
-            .Matches(@"^\d{4}$")
+            .Matches(@"^\d{4,10}$")
             .WithMessage(localizer[nameof(SharedStrings.Shipment_PostalCode_IsInvalid)]);
 
         RuleFor(x => x.Country)
             .NotEmpty()
-            .Length(2, 50)
+            .Length(2, 100)
             .WithMessage(localizer[nameof(SharedStrings.Shipment_Country_IsInvalid)]);
     }
 }

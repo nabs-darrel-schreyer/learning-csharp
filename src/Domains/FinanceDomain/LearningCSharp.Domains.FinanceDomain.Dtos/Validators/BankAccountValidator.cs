@@ -31,7 +31,7 @@ public class BankAccountValidator : AbstractValidator<BankAccount>
 
         RuleFor(x => x.DateOpened)
             .NotEmpty()
-            .LessThanOrEqualTo(DateTime.Today)
+            .LessThanOrEqualTo(DateTime.Now)
             .WithMessage(localizer[nameof(SharedStrings.BankAccount_DateOpened_IsInvalid)]);
     }
 }

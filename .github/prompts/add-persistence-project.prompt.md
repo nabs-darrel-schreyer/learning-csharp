@@ -27,7 +27,7 @@ A `Persistence` project must include:
    - **Entity Class File**: A C# class with the following naming convention: `[EntityName]Entity`.
      - Properties must be public.
      - All entity files must be placed in the `Entities` sub-folder of the project.
-   - **Validator Class File**: A C# class inheriting from `FluentValidation.ValidatorBase<T>`, where `T` is the entity class.
+   - **Validator Class File**: A C# class inheriting from `AbstractValidator<T>`, where `T` is the entity class.
    - Entities are not localizable.
 
 ## Step 3: Create the DbContext

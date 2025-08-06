@@ -26,7 +26,7 @@ public class CarrierValidator : AbstractValidator<Carrier>
 
         RuleFor(x => x.TelephoneNumber)
             .NotEmpty()
-            .Matches(@"^(\+64|0)([2-9]\d{7,9}|\d{8,9})$")
+            .Matches(@"^[\+]?[0-9\s\-\(\)]{7,20}$")
             .WithMessage(localizer[nameof(SharedStrings.Carrier_TelephoneNumber_IsInvalid)]);
     }
 }
