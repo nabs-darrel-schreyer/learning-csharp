@@ -57,6 +57,6 @@ The `Dtos` project must support localization with:
 ## Additional Guidelines
 
 * Validate that all file paths and names adhere to the specified conventions.
-* Ensure the `.csproj` file includes necessary NuGet packages (`CommunityToolkit.Mvvm`, `FluentValidation`, `Microsoft.Extensions.Localization`).
+* Ensure the `.csproj` file includes necessary NuGet packages (`Nabs.Launchpad.Core.Dtos`).
 * Confirm that the `SharedStrings.resx` file is correctly linked in the validator class for localization.
 * Ensure that the Class1.cs file is removed.

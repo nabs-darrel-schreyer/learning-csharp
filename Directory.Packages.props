@@ -1,12 +1,25 @@
 <Project>
     <PropertyGroup>
         <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+        <NabsVersion>9.0.137</NabsVersion>
     </PropertyGroup>
-    <ItemGroup Label="Other Dependencies">
-        <PackageVersion Include="Ardalis.Result" Version="10.1.0" />
-        <PackageVersion Include="Ardalis.Result.FluentValidation" Version="10.1.0" />
-        <PackageVersion Include="FluentValidation" Version="12.0.0" />
-        <PackageVersion Include="CommunityToolkit.Mvvm" Version="8.4.0" />
-        <PackageVersion Include="Microsoft.Extensions.Localization.Abstractions" Version="9.0.0" />
+    <ItemGroup Label="Nabs Launchpad Dependencies">
+        <PackageVersion Include="Nabs.Launchpad.Core.Activities" Version="$(NabsVersion)" />
+        <PackageVersion Include="Nabs.Launchpad.Core.Ai" Version="$(NabsVersion)" />
+        <PackageVersion Include="Nabs.Launchpad.Core.Context" Version="$(NabsVersion)" />
+        <PackageVersion Include="Nabs.Launchpad.Core.Dtos" Version="$(NabsVersion)" />
+        <PackageVersion Include="Nabs.Launchpad.Core.Gateway" Version="$(NabsVersion)" />
+        <PackageVersion Include="Nabs.Launchpad.Core.Interfaces" Version="$(NabsVersion)" />
+        <PackageVersion Include="Nabs.Launchpad.Core.Persistence" Version="$(NabsVersion)" />
+        <PackageVersion Include="Nabs.Launchpad.Core.Portal" Version="$(NabsVersion)" />
+        <PackageVersion Include="Nabs.Launchpad.Core.SeedData" Version="$(NabsVersion)" />
+        <PackageVersion Include="Nabs.Launchpad.Core.ServiceDefaults" Version="$(NabsVersion)" />
+        <PackageVersion Include="Nabs.Launchpad.Core.Silo" Version="$(NabsVersion)" />
+        <PackageVersion Include="Nabs.Launchpad.Core.SiloClient" Version="$(NabsVersion)" />
+        <PackageVersion Include="Nabs.Launchpad.Core.Testing" Version="$(NabsVersion)" />
+        <PackageVersion Include="Nabs.Launchpad.Core.Testing.Silos" Version="$(NabsVersion)" />
+        <PackageVersion Include="Nabs.Launchpad.Core.ViewModels" Version="$(NabsVersion)" />
+        <PackageVersion Include="Nabs.Launchpad.Ui.Shell" Version="$(NabsVersion)" />
+        <PackageVersion Include="Nabs.Launchpad.Ui.Shell.Blazor.Sf" Version="$(NabsVersion)" />
     </ItemGroup>
 </Project>

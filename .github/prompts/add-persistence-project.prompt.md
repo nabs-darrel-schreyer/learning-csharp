@@ -33,5 +33,5 @@ A `Persistence` project must include:
 ## Additional Guidelines
 
 * Validate that all file paths and names adhere to the specified conventions.
-* Ensure the `.csproj` file includes necessary NuGet packages (`FluentValidation`).
+* Ensure the `.csproj` file includes necessary NuGet packages (`Nabs.Launchpad.Core.Dtos`, `Nabs.Launchpad.Core.Persistence`).
 * Ensure that the Class1.cs file is removed.
