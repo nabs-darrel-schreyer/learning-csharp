@@ -22,4 +22,10 @@
         <PackageVersion Include="Nabs.Launchpad.Ui.Shell" Version="$(NabsVersion)" />
         <PackageVersion Include="Nabs.Launchpad.Ui.Shell.Blazor.Sf" Version="$(NabsVersion)" />
     </ItemGroup>
+    <ItemGroup Label="Entity Framework Dependencies">
+        <PackageVersion Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+        <PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" />
+        <PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.0" />
+        <PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0" />
+    </ItemGroup>
 </Project>

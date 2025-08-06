@@ -8,7 +8,7 @@ Perform the following steps:
 ## Step 1: Solution File
 
 1. Check the root folder for a `*.sln` file. 
-2. If there is a `*.sln` file, you can go to Step 2.
+2. If there is a `*.sln` file, you can go to the next step.
 3. If it does not exist, do the following:
     - Prompt the user for a name for the solution file.
     - Create a valid .NET solution using the name of the solution provided.
@@ -17,7 +17,7 @@ Perform the following steps:
 ## Step 2: Central Package Management (CPM) for Package Versions
 
 1. Check the root folder for `Directory.Packages.props` file.
-2. If the file exists, you can go to Step 3.
+2. If the file exists, you can go to the next step.
 3. If it does not exists, dor the following:
     - Create a new `Directory.Packages.props` file in the root folder.
     - Add the following template and save the file:
@@ -54,7 +54,7 @@ Perform the following steps:
 ## Step 3: Central Package Management (CPM) for Project Files
 
 1. Check the root folder for `Directory.Build.props` file.
-2. If the file exists, you can go to End Step.
+2. If the file exists, you can go to the next step.
 3. If it does not exists, dor the following:
     - Create a new `Directory.Build.props` file in the root folder.
     - Add the following template and save the file:

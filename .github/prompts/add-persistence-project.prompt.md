@@ -30,6 +30,32 @@ A `Persistence` project must include:
    - **Validator Class File**: A C# class inheriting from `FluentValidation.ValidatorBase<T>`, where `T` is the entity class.
    - Entities are not localizable.
 
+## Step 3: Create the DbContext
+
+A `Persistence` project must include:
+* A class that inherits from the `DbContext`.
+* By default we use Entity Framework as our data access framework.
+
+1. Create a class `[DomainName]DbContext` that inherits from `DbContext`. Use the following template:
+  ```csharp
+  public sealed class [DomainName]DbContext(
+      DbContextOptions<[DomainName]DbContext> options)
+      : DbContext(options)
+  {
+      
+      protected override void OnModelCreating(ModelBuilder modelBuilder)
+      {
+          modelBuilder.HasDefaultSchema("[schemaName]");
+          
+      }
+  }
+  ```
+2. Add a property for each entity in the project. Name the property the plural name of the entity without the `Entity` suffix. Use the following template:
+  ```csharp
+  public DbSet<[EntityName]> [PluralEntityName] { get; set; } = null!;
+  ```
+
+
 ## Additional Guidelines
 
 * Validate that all file paths and names adhere to the specified conventions.
