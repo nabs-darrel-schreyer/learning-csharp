@@ -14,7 +14,7 @@ public partial class Employee : ObservableObject
     private string _id = string.Empty;
 
     /// <summary>
-    /// Employee identification number with a 6 character limit
+    /// Employee identification number with a 10 character limit
     /// </summary>
     [ObservableProperty]
     private string _employeeNumber = string.Empty;
@@ -26,7 +26,7 @@ public partial class Employee : ObservableObject
     private string _firstName = string.Empty;
 
     /// <summary>
-    /// Last name of the employee
+    /// Last name of the employee. Only max 50 characters allowed.
     /// </summary>
     [ObservableProperty]
     private string _lastName = string.Empty;
