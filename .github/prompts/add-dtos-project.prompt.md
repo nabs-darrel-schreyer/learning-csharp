@@ -12,9 +12,16 @@ Apply the following rules for creating a `Dtos` project in a C# solution.
 
 ## Step 1: Check Project Setup
 
+If the required project has already been created then move on to the next step.
+The `Nabs.Launchpad` provides a `dotnet new` project template with the name `nabs-dto-library`.
+This `nabs-dto-library` has two parameters:
+- `DomainName` which is the name of the domain specified by the user.
+- `DtoName` the first Dto name specified by the user. If more than one Dto is specified they can be used in subsequent steps.
+
 1. If no `Domain` name is provided, prompt the user for one.
-2. Create a C# Class Library project using the naming convention `[SolutionName].Domains.[DomainName]Domain.Dtos`.
+2. Create a project using the project template called `nabs-dto-library` with the naming convention `[SolutionName].Domains.[DomainName]Domain.Dtos`.
 3. Add the `.csproj` file to the solution.
+
 
 ## Step 2: Create Dtos and Validators
 

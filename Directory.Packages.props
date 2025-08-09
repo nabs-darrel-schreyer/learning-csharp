@@ -1,7 +1,7 @@
 <Project>
     <PropertyGroup>
         <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
-        <NabsVersion>9.0.137</NabsVersion>
+        <NabsVersion>9.0.144</NabsVersion>
     </PropertyGroup>
     <ItemGroup Label="Nabs Launchpad Dependencies">
         <PackageVersion Include="Nabs.Launchpad.Core.Activities" Version="$(NabsVersion)" />
